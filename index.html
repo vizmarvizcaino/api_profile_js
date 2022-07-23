@@ -1,32 +1,56 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src="main.js"></script>
-    <title>Perfil Larnu</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfil de usuario larnU</title>
+  <!-- <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"> -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="main.js"></script>
 </head>
+
 <body>
-        <header>
-            <h1>Mi perfil larnU</h1>
-        </header>
-   <div class="container-principal">
-        <div class="container-card">
-            <div class="card-frontend">
-            <input type="text" placeholder="Ingresa tu Email" autocomplete="on" class="input-email" />
-            <input type="text" placeholder="Ingresa tu Discord-Id" autocomplete="on" class="input-discord" />
-            <button class="button">enviar</button>
-            </div>
-        </div>
-        <div class="hobbies">
-            <p>agregar sus hobbies</p>
-            <input type="text" placeholder="Ingresa tu hobbies" autocomplete="on" class="input-hobbies" />
-            <button class="button-hobbies">Agregar hobbies</button> 
-        </div>
+
+  <section class="seccion-perfil-usuario">
+    <div class="loader">
+      <div class="lds-roller">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
     </div>
+    <div class="form-body">
+      <img src="219983.png" alt="user-login">
+      <p class="text">Bienvenido larnU</p>
+      <form class="login-form">
+        <input class="input-email" type="text" placeholder="Email o nombre de usuario">
+        <input class="input-discord" type="password" placeholder="Contraseña">
+        <button class="boton-ingreso">Iniciar Sesión</button>
+      </form>
+    </div>
+  </section>
+  <div class="container-hobbies">
+    <button class="boton-hobbies">Agregar hobbies</button>
+    <input class="input-hobbies" type="text" placeholder="Escribe tu nombre de usuario">
+  </div>
+  <div class="mis-redes" style="display: block;position: fixed;bottom: 1rem;left: 1rem; opacity: 0.5; z-index: 1000;">
+    <p style="font-size: .75rem;">Vizmar Vizcaino</p>
+    <div>
+      <a target="_blank" href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+      <a target="_blank" href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+      <a target="_blank" href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+      <a target="_blank" href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+    </div>
+  </div>
 </body>
+
 </html>

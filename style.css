@@ -14,6 +14,10 @@ body {
   font-family: "Arial", Segoe UI, Tahoma, sans-serifl, Helvetica Neue, Helvetica;
 }
 
+section {
+  position: absolute;
+}
+
 .form-body {
   width: 400px;
   min-width: 300px;
